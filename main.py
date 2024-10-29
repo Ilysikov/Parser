@@ -27,4 +27,9 @@ def save_to_json(links):
 if __name__ == '__main__':
     all_links = collecting_links()
     save_to_json(all_links)
+    CallSave('html')
+    CallSave('pdf')
+    CallSave('page')
+    CallSave('doc')
+    CallSave('photo')
     CallSave('soup')
