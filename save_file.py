@@ -6,7 +6,9 @@ from bs4 import BeautifulSoup
 
 
 class SaveFile:
-    rubs = json.load(open('../CSM/catalog/list_rubs.json'))
+
+    def __init__(self):
+        self.rubs = json.load(open('../CSM/catalog/list_rubs.json'))
 
     def createre_(self):
         for rub in self.rubs:
