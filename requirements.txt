@@ -1,0 +1,7 @@
+python == 3.12
+requests == 2.32.3
+selenium == 4.25.0
+pdfkit == 1.0.0
+beautifulsoup4 == 4.12.3
+os
+json

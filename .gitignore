@@ -1,0 +1,14 @@
+/catalog/
+/venv/
+*.pyc
+.idea/*
+/catalog/*
+catalog/*
+/catalog/*/*
+*/file.html
+*/page.html
+*/soup.html
+*/photo/
+*/photo/*
+*/doc.txt
+*/pdf_file.pdf
