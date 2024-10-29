@@ -1,6 +1,5 @@
 import json
 import os
-
 import pdfkit
 import requests
 from bs4 import BeautifulSoup
